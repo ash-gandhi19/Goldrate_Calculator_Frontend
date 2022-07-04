@@ -1,0 +1,66 @@
+*{
+    font-family: 'Montserrat',sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.heading{
+    margin:30px
+}
+.infohome{
+    margin-top: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+}
+.lcards{
+    width: 40%;
+    margin-right: 5px;
+    
+}
+.rcards{
+    width: 40%;
+    
+}
+.cardcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yeseva One';
+}
+
+.heading_2{
+    margin-top:45px;
+    margin-left: 25px;
+}
+
+.consultant-list{
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap; 
+     justify-content: space-evenly;
+    gap:25px;
+}
+
+.consultant-container{
+    width: 340px;
+}
+
+.consultant-poster{
+    height:500px;
+    width:340px;
+    object-fit: cover;
+}
+
+.consultant-spec{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
