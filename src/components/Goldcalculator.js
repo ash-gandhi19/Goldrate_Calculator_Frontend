@@ -44,7 +44,7 @@ function Goldcalculator() {
   let states = [];
 
   let getData = async () => {
-    let response = await axios.get("http://localhost:5000/all/goldata");
+    let response = await axios.get("https://goldrate-calculator.herokuapp.com/all/goldata");
     setres(response.data);
   };
 
